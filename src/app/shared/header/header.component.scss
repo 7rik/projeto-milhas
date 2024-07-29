@@ -10,11 +10,13 @@
 
   .mat-toolbar {
     background-color: black;
-    color: white;
+    color: white !important;
     padding: 0 256px;
   }
 
+  .mat-mdc-button:not(:disabled),
   .mat-mdc-outlined-button:not(:disabled) {
+    color: white !important;
     border-color: white;
   }
 }
